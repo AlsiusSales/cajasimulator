@@ -1,0 +1,342 @@
+html{
+    background-image: url("thumbs/1111606.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+body{
+    
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    left:0;
+    display:flex;
+    background-color:#0e0e0e;
+    justify-content:center;
+    align-items:center;
+    z-index:99;
+}
+#logoalsius{
+    height:30px;
+    margin-left: 21px;
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#0e0e0e;
+    font-family:'Heebo',sans-serif;
+    font-weight:600;
+    font-size:18px;
+    padding-right:30px;
+}  
+li{
+    float:right;
+}   
+li a{
+    display:block;
+    color:#f1f1f1;
+    text-align:center;
+    padding:18px 26px;
+    text-decoration:none;
+} 
+li a:hover{
+    color:#5CC0FF;
+}
+
+#randomizeButton{
+display: flex;
+margin: 50px;
+}
+
+h1
+{color: #fff;
+text-align: center;}
+
+h2{
+    padding-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Candara", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 80px;
+}
+#buttons-filter{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    background-color: #fff;
+}
+#buttons-filter a{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-decoration: none;
+    color: #0e0e0e;
+    font-family: "Candara", sans-serif;
+    font-weight: 900;
+}
+#buttons-filter a:hover{
+    background-color: #5CC0FF;
+}
+#drops-for-sale{
+    width: 75%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.drops-containers {
+    padding-left: 20%;
+    padding-right: 5%;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-items: center;
+}
+@media screen and (max-width: 1700px) {
+
+    #drops-for-sale{
+        width: 82%;
+        background-color: rgba(0, 0, 0, 0.7);
+        
+    }
+    .drops-containers {
+        padding-left: 13%;
+        padding-top: 60px;
+        padding-bottom: 40px;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        justify-items: center;
+    }
+}
+@media screen and (max-width: 1100px) {
+    #drops-for-sale{
+        width: 75%;
+        background-color: rgba(0, 0, 0, 0.7);
+        
+    }
+
+    .drops-containers {
+        
+        padding-left: 20%;
+        padding-top: 60px;
+        padding-bottom: 40px;
+        display: grid;
+        grid-template-columns: 40% 40%;
+        justify-items: center;
+    }
+}
+@media screen and (max-width: 900px) {
+
+#drops-for-sale{
+        width: 70%;
+        background-color: rgba(0, 0, 0, 0.7);
+        
+}
+.drops-containers {
+        
+        padding-left: 25%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: grid;
+        grid-template-columns: 70%;
+        justify-items: center;
+}
+#buttons-filter{
+    padding-top: 13px;
+}
+#buttons-filter a{
+    font-size: 13px;
+    padding-top: 15px;
+}
+h1{
+        padding-top: 100px;
+        text-align: center;
+        font-size: 40px;
+        font-Family: "Candara", sans-serif;
+        font-weight: 700;
+        color: #FFF;
+}
+h2{
+        padding-top: 150px;
+    text-align: center;
+    font-size: 23px;
+    font-family: "Candara", sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+
+}
+.item-card{
+    margin: 15px;
+}
+p{
+    font-family: "Candara", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px #000;
+}
+#box-top{
+    display: flex;
+    flex-direction: row;
+    width: 240px;
+    height: 50px;
+    background-color: rgba(11, 16, 25, 0.7);
+    outline: 1px solid #4c4c4c;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+#drop-thumbnail{
+    outline: 1px solid #4c4c4c;
+    border-radius: 5px;
+    margin: 7px;
+}
+#text-box{
+    width: 70%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#drop-name{
+    margin-top: 7px;
+}
+#drop-material{
+    margin-top: -8px;
+}
+#drop-x{
+    margin-top: 8px;
+    margin-bottom: 28px;
+    align-self: flex-start;
+}
+#box-bottom{ 
+    width: 240px;
+    height: auto;
+    background-color: rgba(11, 16, 25, 0.7);
+    outline: 1px solid #4c4c4c;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+#drop-card{
+    padding:0 5 10 5;
+    margin-left: 10px;
+}
+#resis{
+    margin-top: -7px;
+    display: flex;
+    flex-direction: row;
+}
+#damagepanel{
+    margin-top: -7px;
+    display: flex;
+    flex-direction: row;
+    height: 18px;
+}
+#secondary{
+    margin-top: 2px;
+}
+
+#drop-info-armor{
+    padding-top: 10px;
+    margin-top: 0px;
+}
+#resis-thumbnail{
+    display: flex;
+    flex-direction: column;
+    height: 18px;
+    margin-bottom: 1px;
+}
+#dmgtype-thumbnail{
+    height: 17px;
+    margin-bottom: 1px;
+    margin-left: px;
+}
+#dmgnumber{
+    height: 18px;
+    margin-top: 0;
+    margin-left: 3px;
+    padding-right: 7px;
+}
+#drop-info-resis{
+    margin: 0 0 0 3;
+    height: 19px;
+}
+
+#drop-info-class{
+    padding-top: 0px;
+    padding-bottom: 3px;
+    padding-left: 4px;
+    margin: 0;
+    height: 12px;
+}
+#classA, #classB, #description{
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+#enhancement{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 92% 8%;
+    align-items: center;
+}
+.legendary{
+    color: #EE4000;
+}
+.Epico{
+    color: #e88cff;
+}
+.Magico{
+    color: #7dff81;
+}
+.Special{
+    color: #FF8;
+}
+.Common{
+    color: #FFF;
+}
+.bounded{
+    color: #984f33;
+}
+.yellow-text{
+    color: #FF8;
+}
+.white-text{
+    color: #FFF;
+}
+.gray-text{
+    color: #BEBEBE;
+}
+.bonus-text{
+    color: #5CC0FF;
+}
+.enhancedno{
+    color: #6b6b6b;
+}
+.enhancedyes{
+    color: #5CC0FF;
+}
+#price{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Candara", sans-serif;
+    font-weight: 500;
+    color: #FFF;
+    text-align: center;
+}
